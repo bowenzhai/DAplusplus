@@ -1,0 +1,28 @@
+textarea.aui-field-input-text {
+	min-height: 500px!important;
+	min-width: 100%!important;
+	font-size: 1.1em!important;
+}
+
+.dock-toggle {
+	height: 40px;
+	width: 80px;
+	margin: auto;
+	position: fixed;
+	top: 55px;
+	z-index: 999;
+	left: 0;
+	right: 0;
+	background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(215,213,213,1) 100%);
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.dock-toggle p {
+	text-align: center;
+	padding-top: 25%;
+	font-size: 16px!important;
+	line-height: 18px!important;
+	user-select:none;
+	color: black;
+}
